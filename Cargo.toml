@@ -1,0 +1,10 @@
+[package]
+name = "ffi_example"
+version = "0.1.0"
+authors = ["Matt Blewitt <blewitt.matt@gmail.com>"]
+
+[dependencies]
+
+[lib]
+name = "ffi_example"
+crate-type = ["dylib"]
